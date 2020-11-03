@@ -1,0 +1,23 @@
+{
+    "name": "AlanCristhianDark",
+    "theme_colors": {
+        "foreground": "#d4d4e3",
+        "background": "#292938",
+        "black": "#121219",
+        "red": "#e76464",
+        "green": "#3c9f0b",
+        "brown": "#ae7c19",
+        "blue": "#8870fe",
+        "magenta": "#d25cea",
+        "cyan": "#189b9b",
+        "white": "#ececf3",
+        "light_black": "#535371",
+        "light_red": "#ef9898",
+        "light_green": "#7dbf5c",
+        "light_brown": "#c9a866",
+        "light_blue": "#292938",
+        "light_magenta": "#e193f1",
+        "light_cyan": "#65bdbd",
+        "light_white": "#a8a8c6"
+    }
+}

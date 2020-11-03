@@ -1,0 +1,27 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "json": {
+            "strict": true
+        }
+    },
+    "paths": {
+        "windows": [
+            "C:\\Users\\Ruiz\\py39\\Scripts\\",
+            "C:\\Users\\Ruiz\\py39\\"
+        ]
+    },
+    "linters": {
+        "mypy": {
+            "excludes": ["*.md"]
+        },
+        "pyflakes": {
+            "excludes": ["*.md"],
+            "filter_errors": ["WARNING: pyflakes reported errors coming from "]
+        },
+        "pycodestyle": {
+            "excludes": ["*.md"]
+        }
+    },
+    "delay": 0.01,
+}

@@ -1,0 +1,44 @@
+{
+	"color_scheme": "Packages/User/Alan Cristhian-Themes/AlanCristhianDark.tmTheme",
+	"dictionary": "Packages/Language - Spanish/es_ES.dic",
+	"draw_indent_guides": false,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__",
+		".mypy_cache"
+	],
+	"font_face": "Iosevka Fixed Slab",
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"NeoVintageous",
+		"Python",
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"line_numbers": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 2,
+	"margin": 4,
+	"neovintageous_build_version": 11100,
+	"overlay_scroll_bars": "enabled",
+	"remember_full_screen": true,
+	"rulers":
+	[
+		79
+	],
+	"show_tab_close_buttons": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintageous_use_ctrl_keys": null,
+	"vintageous_use_super_keys": null,
+	"word_wrap": false
+}

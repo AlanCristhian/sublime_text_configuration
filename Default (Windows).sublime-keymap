@@ -1,0 +1,85 @@
+[
+    // comments
+    { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+
+    // Convert case
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "title_case" },
+    { "keys": ["ctrl+k", "ctrl+n"], "command": "swap_case" },
+
+    // Folders
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+
+    // Editor mode
+    { "keys": ["ctrl+alt+n"], "command": "toggle_neovintageous" },
+
+    // Open a terminal tab at current file directory
+    {
+        "keys": ["ctrl+alt+t"],
+        "command": "terminus_open",
+        "args": {
+            "cwd": "${project_path}",
+            "title": "Terminal"
+        }
+    },
+
+    // Open a git terminal tab at current file directory
+    {
+        "keys": ["ctrl+alt+g"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["C:\\Program Files\\Git\\bin\\sh.exe"],
+            "cwd": "${project_path}",
+            "title": "Git Bash"
+        }
+    },
+
+    // Open a ubuntu terminal tab at current file directory
+    {
+        "keys": ["ctrl+alt+u"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["C:\\Program Files\\WindowsApps\\CanonicalGroupLimited.UbuntuonWindows_2004.2020.812.0_x64__79rhkp1fndgsc\\ubuntu.exe"],
+            // "cwd": "${project_path}",
+            "title": "Ubuntu"
+        }
+    },
+
+    // Open a Python REPL tab at current file directory
+    {
+        "keys": ["ctrl+alt+p"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["python", "-q"],
+            "cwd": "${project_path}",
+            "title": "Python REPL"
+        }
+    },
+
+    // Run current file in interactive Python REPL
+    {
+        "keys": ["ctrl+alt+i"],
+        "command": "toggle_terminus_panel",
+        "args": {
+            "cmd": [
+                "py",
+                "-i",
+                "${file_name}"
+            ],
+            "title": "Interactive Python REPL",
+            "tag": "Interactive_Python_REPL"
+        }
+    },
+
+    {
+        "keys": ["ctrl+alt+j"],
+        "command": "terminus_close",
+        "args": {
+            "tag": "Interactive_Python_REPL",
+        }
+    },
+
+    // Quick switch project
+    { "keys": ["ctrl+alt+s"], "command": "prompt_select_workspace"}
+]

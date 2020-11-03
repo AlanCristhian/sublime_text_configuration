@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DocReflow",
+		"GraphQL",
+		"INI",
+		"Jedi - Python autocompletion",
+		"MagicPython",
+		"More Layouts",
+		"NeoVintageous",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"sublack",
+		"SublimeLinter",
+		"SublimeLinter-contrib-mypy",
+		"SublimeLinter-json",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pyflakes",
+		"Terminus",
+		"ToggleNeoVintageous"
+	]
+}
